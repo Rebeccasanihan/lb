@@ -1,0 +1,18 @@
+.photo{
+       display:bloc;
+       }
+.Lien{
+      margin:0.4 rem 0;
+     }
+.page{
+      width:900px;
+      margin:auto;
+      border:5px solid #fefefe;
+      border-radius:10px;
+      box-shadow:2px 4px 3px black;
+      padding:20px;
+      background-color:#6688;
+     }
+h1{
+   text-align:center;
+   }

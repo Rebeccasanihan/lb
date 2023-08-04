@@ -1,0 +1,61 @@
+.Civil{
+       heigth:100px;
+       width:600px;
+       float:center;
+       border-radius:45px;
+       background-color:white;
+       font-size:50px;
+       margin:auto;
+       }
+.div1{
+      width:300px;
+      margin:auto;
+      }
+
+.archi{
+       width:700px;
+       height:350px;
+       background:orange;
+       color:black;
+       border-radius:30px 40px 50px /45px ;
+       font-size:2.1em;
+     }
+i{
+  color:royalblue;
+  }
+.cercle{
+        padding:90px;
+        width:300px;
+        height:300px;
+        margin-right:-15px;
+        mix-blend-mode:2 multiply;
+        padding-left:50px;
+       
+}
+.c1{
+     background:cyan;
+     border-radius:31% 69% 70% 30%/30% 32% 68% 70%;
+      float:right;
+      
+    }
+.c2{
+     background:#6688;
+     border-radius:75% 25% 18% 82%/41% 59% 41% 59%;
+     float:left;
+     
+    }
+    
+.c3{
+     background:violet;
+     border-radius:75% 25% 18% 82%/41% 59% 41% 59%;
+    }
+.divCer{
+         display:flex;
+         justify-content:center;
+        }
+.divP{
+      width:400px;
+      background:white;
+      margin:auto;
+      position:top;
+    }

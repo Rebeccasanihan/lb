@@ -1,0 +1,212 @@
+*{
+   margin:0px;
+   padding:0px;
+   box-sizing:border-box;
+  }
+body{
+     background:skyblue;
+     background-size:cover;
+    }
+nav h1{
+       font-size:32px;
+       color:royalblue;
+       float:center;
+       }
+nav{
+    width:100%;
+    background-color:white;
+    height:100p%;
+    line-height:85px;
+    padding:0px 10px;
+    }
+       }
+nav ul{
+       float:left;
+      }
+nav ul li{
+           float:left;
+           list-style:none;
+           position:relative;
+           border-bottom:1.5px #187498 solid;
+           background-color:white;
+          
+           }
+nav ul li a{
+            text-decoration:none;
+             font-family:sans-serif;
+             color:royal-blue;
+             font-size:17px;
+             padding:0px 10px;
+             display:block;
+            }
+nav ul li a:hover{
+                  background-color:silver;
+                  }
+nav ul li ul{
+             position:absolute;
+             display:none;
+             background-color:white;
+              border-radius:0px 0px 5px 5px;
+             
+             }
+nav ul li:hover ul{
+                   display:block;}
+nav ul li ul li{
+                Line-height:1;
+                width:190px;
+                border-radius:5px;
+                padding:6px;
+                }
+nav ul li ul li a{
+                  padding:10px 16px;
+                  }
+nav ul li ul li a:hover{
+                  background-color:silver;
+                  }
+.Header{
+        background-color:white;
+        height:75px;
+        margin:auto;
+        width:1500px;
+       }
+.logo img{
+          width:60px;
+          height:70px;
+          float:left;
+          
+         }
+.P1{
+     font-size:2.1em;
+     text-shadow:2px 2px 0px rgb(0,0,0);
+     text-align:left;
+    }
+.P2{
+    font-size:2.1em;
+    text-align:left;
+   }
+nav{
+      background-color:white;
+    }
+
+   }
+.Presentation{
+               color:white;
+               width:900px;
+               margin-left:150px;
+               margin-top:100px;
+               
+              }
+.general{
+          
+          width:1400px;
+         }
+aside{
+     
+     width:300px;
+     display:inline-block;
+     vertical-align:top;
+     border-right: 2px solid black;
+     }
+section{
+        
+         width:850px;
+         display:inline-block;
+         vertical-align-top;
+         margin:50px;
+         
+        }
+.taille1{
+         font-size:1.4em;
+         }
+.taille2{
+         font-size:2.1em;
+         }
+.present{
+           font-size:4em;
+           
+         }
+.container{
+           
+           top:50%;
+           left:50%;
+           transforme:translate(-50%,-50%);
+           width:700px;
+           padding:30px;
+           background-color:white;
+           }
+.circle{
+         width:410px;
+         height:350px;
+         background:url(fondatrice.jpg);
+         background-size:cover;
+         border-radius:50%;
+         float:left;
+         shape-outside:circle();
+         margin:60px 30px 30px 0;
+         }
+
+.int{
+     margin:0;
+     padding:0;
+     text-align:justify;
+     line-height:19px;
+}
+.titre{
+       margin: 0 0 20px;
+       color:black;
+}
+.slider{
+        width:800px;
+        height:500px;
+        background:url(eleves.jpg);
+        margin:100px auto;
+        animation:slide 10s infinite;
+        position:relative;
+        background-size:cover;
+        }
+@keyframes slide{
+                 75%{
+                      background:url(batim.jpg);
+                     }
+                 75%{
+                     background:url(eleves.jpg);
+                     }
+                 50%{
+                     background:url(Scolaire.jpg);
+                    }
+                 75%{
+                       background:url(IMG12.jpg);
+                      }
+                  }
+.divP{
+      width:400px;
+      background:white;
+      float:left;
+      margin:15px;
+    }
+.divR{
+      width:400px;
+      background:white;
+       float:right;
+       margin:15px;
+    }
+
+.diva{
+       width:400px;
+       height:300px;
+       background:#1E87D2;
+       color:white;
+       border-radius:10% 0% 30%;
+       font-size:2.1em;
+        float:left;
+     }
+
+.divre{
+       width:400px;
+       height:300px;
+       background:#1E87D2;
+       color:white;
+       border-radius:10% 0% 30%;
+       font-size:2.1em;
+       float:right;
+     }

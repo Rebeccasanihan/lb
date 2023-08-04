@@ -1,0 +1,110 @@
+#menu ul{
+         margin:0px;
+         padding:0px;
+         }
+#menu li {
+         list-style:none;
+         float:left;
+         position:relative;
+         padding:0px;
+         }
+#menu ul li a{
+              color:royal-blue;
+               text-decoration:none;
+               width:150px;
+               height:30px;
+               display:block;
+               text-align:center;
+               font-size:1.3em;
+               }
+#menu ul ul{
+            position:absolute;
+            top:30px;
+            visibility:hidden;
+            }
+#menu ul li:hover ul{
+                     visibility:visible;
+                     }
+h1{
+         text-align:center;
+          color:royalblue;
+       }
+#menu li:hover{
+                background-color:silver;
+
+        }
+.bordure{
+          border-radius:30px;}
+#menu li a{
+            text-decoration:none;}
+/*.element{
+         font-size:15px;
+         border:5px #187498 solid;
+         border-radius:25% 30% 30% 90%;
+         border-width:40px;
+         }*/
+.cont{
+       display:flex;
+       
+     }
+.card{
+       height:400px;
+       margin:50px;
+       box-shadow:5px 5px 20px black;
+       overflow:hidden;
+       
+     
+      }
+#im1{
+    height:400px;
+    width:350px;
+    border-radius:3px;
+    
+   }
+.intro{
+       height:70px;
+       width:350px;
+       padding:6px;
+       box-sizing:border-box;
+       position:relative;
+       background:rgb(27, 27, 27, .7);
+       color:white;
+       bottom:70px;
+       }
+.clas{
+      
+      justify-content:center;
+      height:270vh;
+      align-items:center;
+    
+ 
+      
+      }
+.hcar{
+      margin:10px;
+      font-size:40px;
+     }
+.Pcar{
+      font-size:20px;
+      margin:20px;
+      visibility:hidden;
+      opacity:0;
+  
+     }
+span{
+     font-weight:bold;
+     font-size:1.3em;
+     }
+.card:hover{
+            cursor:pointer;
+           }
+.card:hover .intro{
+                   height:220px;
+                   bottom:220px;
+                   
+                   }
+.card:hover P{
+               opacity:1;
+               visibility:visible;
+              }
+
